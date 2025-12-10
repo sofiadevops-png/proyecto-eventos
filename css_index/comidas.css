@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+    width: auto !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #271F1E !important;
+}
+
+/*Header*/
+header {
+    background-color: #553726;
+}
+
+.navbar {
+    padding: 3 !important;
+    margin: 3 !important;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+.fs-6{
+    font-size: 20px !important;
+}
+
+.navbar-link {
+    font-size: 20px !important;
+}
+
+/*main*/
+
+/*Footer*/
+footer {
+    background-color: #553726;
+    position: absolute;
+    width: 100%;
+}
+/* -------------------- SECCIÓN TACOS -------------------- */
+
+        .product-section {
+            padding: 60px 40px;
+        }
+
+        .title-large {
+            font-size: 82px;
+            font-weight: 900;
+            color: #ffdcb4;
+            align-items: flex-end;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: azure;
+            align-items: flex-end;
+        }
+
+        .description {
+            font-size: 20px;
+            line-height: 22px;
+            max-width: 350px;
+            color: azure;
+            align-items: flex-end;
+        }
+
+        .line {
+            width: 100%;
+            height: 2px;
+            background-color: #8e8b8b;
+            margin: 20px 0;
+        }
+
+        
