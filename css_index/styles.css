@@ -1,0 +1,124 @@
+/* Colores principales */
+:root {
+    --brown-dark: #2b201c;
+    --brown-light: #C36D38;
+    --orange: #d76e2f;
+    --text-light: #ffffff;
+    --form-bg: #ffffff;
+}
+
+/* Barra superior */
+.top-bar {
+    background-color: var(--brown-light);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+#logo {
+    padding: 0;
+    margin: 0;
+    background-color: #825133;
+    color: white;
+}
+
+/* Logo */
+.logo-img {
+    width: 180px;
+}
+
+/* Título REGISTRARSE */
+.register-title {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/* Fondo del sitio */
+body {
+    background-color: var(--brown-dark);
+}
+
+/* Caja del formulario */
+.form-box {
+    background-color: var(--form-bg);
+    width: 420px;
+    padding: 25px;
+    border: 8px solid var(--orange);
+}
+
+/* Inputs personalizados */
+.custom-input {
+    border: 1px solid #eaa45f;
+    border-radius: px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+/* Texto de privacidad */
+.privacy-text {
+    font-size: 0.70rem;
+    color: #C36D38;
+}
+
+/* Botón */
+.btn-register {
+    background-color: #cc98789c;
+    color: white;
+    width: 120px;
+}
+
+.btn-register:hover {
+    background-color: #ea8a53;
+}
+
+/* Footer */
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-section {
+    /* background-color: var(--brown-light); */
+    background-color: #553726;
+    color: white;
+}
+
+.footer-title {
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 01px;
+    letter-spacing: 5px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #ffd7b0;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+copyright {
+    font-size: 0.2rem;
+}
+@media(max-width:671px){
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+    #redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #redes div {
+        margin: 0;
+    }
+}
